@@ -129,9 +129,3 @@ if imSize(3) > 2
     pause
     clear all;close all;clc;
 end
-
-
-
-
-
-
