@@ -11,4 +11,4 @@ else
         img = img - min(img(:));
   img = img /( max(img(:))-min(img(:)));
 end
-end
+end 
