@@ -11,4 +11,4 @@ argmaxs = findpeaks(salmap(:));
     salmap(setpos) = 1;
     figure()
     imshow(salmap)
-end
+end 
