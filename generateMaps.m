@@ -7,4 +7,4 @@ function [RG BY] = generateMaps (R,G,B)
     RG(setThresh) = 0;
     BY(setThresh) = 0;
    
-end
+end 
