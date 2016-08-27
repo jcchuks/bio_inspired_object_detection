@@ -33,7 +33,7 @@ function gbImg = gaborFilter(image,figCount)
     open2 = h_gbzero.(th{1})(:);
     h_gbzero.(th{1}) = h_gbzero.(th{1})/sqrt(sum(open2.^2));
     ImageIfft.(th{1}) = (conv2(image,h_gb.(th{1}),'same'));
-    ImageIfftZer.(th{1}) = (conv2(image,h_gbzero.(th{1}),'same'));
+    ImageIfftZer.(th{1}) = (conv2(image,h_gbzero.(th{1}),'same')); 
 
     ImageComb.(th{1}) =  (ImageIfft.(th{1})) + (ImageIfftZer.(th{1}));
     [Fx,Fy] = meshgrid(fx,fy);
