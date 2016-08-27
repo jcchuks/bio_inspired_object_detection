@@ -25,6 +25,6 @@ function obj =  pyramidsGen(image)
 %     for i=fieldnames(obj)'
 %         figure()
 %         imshow(obj.(i{1}))
-%     end
+%     end 
  
 end
