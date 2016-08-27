@@ -22,3 +22,4 @@ function gbImg = gaborFilter()
     count = count +1;
     end
 end
+ 
